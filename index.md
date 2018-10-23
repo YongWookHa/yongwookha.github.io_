@@ -7,6 +7,7 @@ This page is not completed yet. I'm working on this now in local. (2018.10.23)
 Anyway, I'm really appreciated that Github provides this wonderful markdown based page hosting service for nothing!
 
 
+
 ## Links
 
 | | |
