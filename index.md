@@ -17,6 +17,7 @@ Anyway, I'm really appreciated that Github provides this wonderful markdown base
 | Steemit | [https://steemit.com/@ywha12](https://steemit.com/@ywha12) |
 
 ## Publications
+석사 학위 논문 : [https://yongwookha.github.io/hayongwook-masterpaper/](https://yongwookha.github.io/hayongwook-masterpaper/)
 
 ## Research Experience
 
@@ -24,5 +25,5 @@ Anyway, I'm really appreciated that Github provides this wonderful markdown base
 
 ## Skills
 
-**Programming Languages** : Python, C, C++, Java
+**Programming Languages** : Python, C, C++, Java<br>
 **Human Languages** : English - fluent level, Korean - Native
