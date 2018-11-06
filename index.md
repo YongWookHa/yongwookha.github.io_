@@ -1,10 +1,11 @@
 ## Links
-| | | 
- |:--------|:--------|
-  |e-mail  | ywha12@gmail.com |
-  | Github  | [https://github.com/YongWookHa](https://github.com/YongWookHa) |
-  |Steemit | [https://steemit.com/@ywha12](https://steemit.com/@ywha12)  |
-  |Blog | [https://man-about-town.tistory.com](https://man-about-town.tistory.com) |
+
+|           |                                                                           | 
+|:----------|:--------------------------------------------------------------------------|
+|e-mail     | ywha12@gmail.com                                                          |
+| Github    | [https://github.com/YongWookHa](https://github.com/YongWookHa)            |
+|Steemit    | [https://steemit.com/@ywha12](https://steemit.com/@ywha12)                |
+|Blog       | [https://man-about-town.tistory.com](https://man-about-town.tistory.com)  |
 
 ## Education
 > **Pusan National University (PNU)**
