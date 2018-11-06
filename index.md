@@ -1,3 +1,9 @@
+## Welcome!
+
+Here, you've come to my github page.
+
+This page is not completed yet. I'm working on this now in local. (2018.11.06)
+
 ## Links
 
 | | |
@@ -7,28 +13,15 @@
 | Steemit | [https://steemit.com/@ywha12](https://steemit.com/@ywha12) |
 | blog | [https://man-about-town.tistory.com](https://man-about-town.tistory.com) |
 
-## Education
-
-#### Pusan National University
-* B.S. in Computer Science Engineering
-* Master in CSE and Machine Learning
-
-
-## Education
- #### Pusan National University
-* B.S. in Computer Science Engineering
-* Master in CSE and Machine Learning
-
 ## Publications
-master's thesis : [https://yongwookha.github.io/hayongwook-masterpaper/
-](https://yongwookha.github.io/hayongwook-masterpaper/)
 
 ## Research Experience
+master's thesis : [https://yongwookha.github.io/hayongwook-masterpaper/
+](https://yongwookha.github.io/hayongwook-masterpaper/)
 
 ## Awards
 
 ## Skills
 
-**Speciality** : Deep Learning<br>
-**Programming Languages** : Python, C, C++, Java<br>
+**Programming Languages** : Python, C, C++, Java
 **Human Languages** : English - fluent level, Korean - Native
