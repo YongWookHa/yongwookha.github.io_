@@ -1,9 +1,3 @@
-## Welcome!
-
-Here, you've come to my github page.
-
-This page is not completed yet. I'm working on this now in local. (2018.11.06)
-
 ## Links
 
 | | |
@@ -12,6 +6,11 @@ This page is not completed yet. I'm working on this now in local. (2018.11.06)
 | Github | [https://github.com/YongWookHa](https://github.com/YongWookHa) |
 | Steemit | [https://steemit.com/@ywha12](https://steemit.com/@ywha12) |
 | blog | [https://man-about-town.tistory.com](https://man-about-town.tistory.com) |
+
+## Education
+#### Pusan National University
+* B.S. in Computer Science Engineering
+* Master in CSE and Machine Learning
 
 ## Publications
 
