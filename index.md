@@ -1,12 +1,3 @@
-## Welcome!
-
-Here, you've come to my github page.
-
-This page is not completed yet. I'm working on this now in local. (2018.10.31)
-
-Anyway, I'm really appreciated that Github provides this wonderful markdown based page hosting service for nothing!
-
-
 
 ## Links
 
@@ -17,8 +8,15 @@ Anyway, I'm really appreciated that Github provides this wonderful markdown base
 | Steemit | [https://steemit.com/@ywha12](https://steemit.com/@ywha12) |
 | blog | [https://man-about-town.tistory.com](https://man-about-town.tistory.com) |
 
+## Education
+
+#### Pusan National University
+* B.S. in Computer Science Engineering
+* Master in CSE and Machine Learning
+
+
 ## Publications
-석사 학위 논문 : [https://yongwookha.github.io/hayongwook-masterpaper/](https://yongwookha.github.io/hayongwook-masterpaper/)
+master's thesis : [https://yongwookha.github.io/hayongwook-masterpaper/](https://yongwookha.github.io/hayongwook-masterpaper/)
 
 ## Research Experience
 
