@@ -2,3 +2,5 @@ theme: jekyll-theme-minimal
 title: YongWook Ha
 show_downloads: true
 description: Machine Learning Expert
+cv_eng: https://raw.githubusercontent.com/YongWookHa/yongwookha.github.io/master/CV-YongWook_Ha-Eng.pdf
+cv_kor: https://raw.githubusercontent.com/YongWookHa/yongwookha.github.io/master/CV-YongWook_Ha-Kor.pdf
