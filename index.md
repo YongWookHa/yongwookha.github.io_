@@ -4,7 +4,6 @@ Still on being filled (18.11.10)
 |:----------|:--------------------------------------------------------------------------|
 |e-mail     | ywha12@gmail.com                                                          |
 | Github    | [https://github.com/YongWookHa](https://github.com/YongWookHa)            |
-|Steemit    | [https://steemit.com/@ywha12](https://steemit.com/@ywha12)                |
 |Blog       | [https://man-about-town.tistory.com](https://man-about-town.tistory.com)  |
 
 ## Education
