@@ -12,8 +12,10 @@ Still on being filled (18.12.20)
 > * Master in CSE and Machine Learning
 
 ## Publications
-Master's Thesis : [https://yongwookha.github.io/hayongwook-masterpaper/
-](https://yongwookha.github.io/hayongwook-masterpaper/)
+Master's Thesis : [Photo-Realistic Image Generation Using Variational AutoEncoder and Neural Network based Super-Resolution](https://yongwookha.github.io/hayongwook-masterpaper/)
+- [Generated Image by the suggested model](https://github.com/YongWookHa/yongwookha.github.io/blob/master/generated_faces.png?raw=true)
+
+
 
 ## Research Experience
 [Neural network and Robot Vision Lab](http://harmony.cs.pusan.ac.kr/~wiki/index.php/%EB%8C%80%EB%AC%B8) @ PNU (2016.7~2019.2)
