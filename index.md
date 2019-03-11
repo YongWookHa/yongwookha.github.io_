@@ -1,5 +1,6 @@
+## Profile
 
-Still on being filled (19.01.27)
+Researcher at [KAIST Global Institue For Talented EDucation](http://gifted.kaist.ac.kr/)
 
 |Link | |
 |:----------|:--------------------------------------------------------------------------|
@@ -21,6 +22,9 @@ Still on being filled (19.01.27)
 - Master's Thesis : [Photo-Realistic Image Generation Using Variational AutoEncoder and Neural Network based Super-Resolution](https://yongwookha.github.io/hayongwook-masterpaper/)<br/><img src="https://github.com/YongWookHa/yongwookha.github.io/blob/master/generated_faces.png?raw=true" width="300" height="300">
 -  Private Project : [Dance like Bruno Mars using Style Transfer](https://github.com/YongWookHa/pose2pose)<br/>[![pose2pose-demo](http://img.youtube.com/vi/Nc0LNrzDeXQ/0.jpg)](https://youtu.be/Nc0LNrzDeXQ)
 
+## Work Experience
+
+[Global Institue For Talented EDucation](http://gifted.kaist.ac.kr/) @ KAIST (2019.3~)
 
 ## Awards
 
