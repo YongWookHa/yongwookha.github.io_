@@ -1,3 +1,15 @@
+@font-face { /* space-mono-regular - latin */
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/space-mono-v4-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Space Mono'), local('SpaceMono-Regular'), url('../fonts/space-mono-v4-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/space-mono-v4-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/space-mono-v4-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/space-mono-v4-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/space-mono-v4-latin-regular.svg#SpaceMono') format('svg'); /* Legacy iOS */
+}
+
 @font-face {
     font-family: 'Noto Sans';
     font-weight: 400;

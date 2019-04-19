@@ -2,11 +2,11 @@
 @import "rouge-github";
 
 body {
-  background-color: #fff;
-  padding:50px;
-  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#727272;
-  font-weight:400;
+    background-color: #fff;
+    padding: 50px;
+    font: 14px/1.5 "Space Mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #727272;
+    font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -172,9 +172,9 @@ strong {
 }
 
 section {
-  width:500px;
+  width:800px;
   float:right;
-  padding-bottom:50px;
+  padding-bottom:100px;
 }
 
 small {
