@@ -28,8 +28,6 @@ Researcher at [KAIST Global Institue For Talented EDucation](http://gifted.kaist
 
 [Neural network and Robot Vision Lab](http://harmony.cs.pusan.ac.kr/~wiki/index.php/%EB%8C%80%EB%AC%B8) @ PNU (2016.7~2019.2)
 
-[Global Institue For Talented EDucation](http://gifted.kaist.ac.kr/) @ KAIST (2019.3~)
-
 ## Awards
 
 * 2nd Prize @ Creative Promotional Video Contest for Ireland -by Ireland Embassy in S.Korea
