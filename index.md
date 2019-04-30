@@ -1,7 +1,5 @@
 ## Profile
 
-Researcher at [KAIST Global Institue For Talented EDucation](http://gifted.kaist.ac.kr/)
-
 |Link | |
 |:----------|:--------------------------------------------------------------------------|
 |e-mail | ywha12@gmail.com |
