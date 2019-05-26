@@ -24,7 +24,8 @@
 
 ## Work Experience
 
-[Neural network and Robot Vision Lab](http://harmony.cs.pusan.ac.kr/~wiki/index.php/%EB%8C%80%EB%AC%B8) @ PNU (2016.7~2019.2)
+- [Neural network and Robot Vision Lab](http://harmony.cs.pusan.ac.kr/~wiki/index.php/%EB%8C%80%EB%AC%B8) @ PNU (2016.7~2019.2)
+- [NHN Diquest - AI Group / R&D team](https://www.diquest.com/) @ Seoul, S.Korea (2019.05~)
 
 ## Awards
 
