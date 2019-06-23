@@ -9,7 +9,8 @@ use-site-title: true
 <h1> [Recent Posts] </h1>
 
 <div class="posts-list">
-    {% for post in site.documents %}
+    {% assign posts = site.documents | sort:"date" | reverse %}
+    {% for post in posts %}
       {% if post.url contains 'index' %}
         {% continue %}
       {% endif %}
