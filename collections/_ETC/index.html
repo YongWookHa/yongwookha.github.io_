@@ -6,7 +6,8 @@ use-site-title: true
 ---
 
 <div class="posts-list">
-    {% for post in site.ETC %}
+    {% assign posts = site.ETC | sort:"date" | reverse %}
+    {% for post in posts %}
       {% if post.url contains 'index' %}
         {% continue %}
       {% endif %}
