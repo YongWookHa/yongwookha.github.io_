@@ -43,7 +43,7 @@ jekyll은 [markdown](https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%E
 방법은 간단하다. `site.posts`가 아무것도 반환하지 않는다해도, collection으로 관리되는 post들에 대한 접근은 `site.collections`로 할 수 있다. 이것은 collection array를 반환하기 때문에 `site.posts`와 같이 각각의 post에 접근할 수 있기 위해서는 다음과 같은 코드를 사용할 수 있다.
 
 {% raw %}
-```
+```html
 {% for c in site.collections %}
     {% assign label = c.label %}
     {% assign collection = site[label] %}
@@ -54,7 +54,7 @@ jekyll은 [markdown](https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%E
 ```
 {% endraw %}
 
-jekyll native에서 제공하는 tag 기능을 활용하기 위해서는 `_config.yml`에 `link-tags: true`를 추가하고, root 디렉토리에 `tags.html` 파일을 만들어야 한다. 위의 코드를 이용해서 다음과 같은 `tags.html` 파일을 만들 수 있다. Liquid에서는 `{% comment %}`와 `{% endcomment %}`로 주석을 작성하니 참고하기 바란다.
+jekyll native에서 제공하는 tag 기능을 활용하기 위해서는 `_config.yml`에 `link-tags: true`를 추가하고, root 디렉토리에 `tags.html` 파일을 만들어야 한다. 위의 코드를 이용해서 다음과 같은 `tags.html` 파일을 만들 수 있다. Liquid에서는 {% raw %}`{% comment %}`와 `{% endcomment %}`{% endraw %}로 주석을 작성하니 참고하기 바란다.
 
 {% raw %}
 ```
