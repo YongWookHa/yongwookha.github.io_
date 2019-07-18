@@ -16,14 +16,14 @@ subtitle: Machine Learning Engineer
 
 - [Neural network and Robot Vision Lab](http://harmony.cs.pusan.ac.kr/~wiki/index.php/%EB%8C%80%EB%AC%B8) @ PNU (2016.7~2019.2)
 - [NHN Diquest](https://www.diquest.com/) - AI Group / R&D team @ Seoul, South Korea (2019.05~)
-
+<br>*Working as a substitute of mandatory military service*
 
 ## Education
 
 * **Pusan National University (PNU)**
 <br/>
-├─ B.S. in Computer Science Engineering<br/>
-└─ Master in CSE and Machine Learning
+?? B.S. in Computer Science Engineering<br/>
+?? Master in CSE and Machine Learning
 
 
 ## Project Experience
