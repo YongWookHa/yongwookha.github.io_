@@ -3,7 +3,7 @@ layout: post
 title: BERT모델 Pytorch Template에 옮겨쓰기
 subtitle: 1. pytorch-template 살펴보기
 tags: [MACHINE_LEARNING, NLP, PYTORCH]
-image: /img/NLP-image.jpg
+image: /img/PyTorch-logo.jpg
 comments: true
 ---
 
@@ -17,7 +17,7 @@ comments: true
 
 ## Pytorch Template for Study
 
-Pytorch 숙련도를 올리고, 동시에 NLP 모델들을 더 자세히 공부하기 위해 작은 프로젝트를 해보려고 한다. [moemen95의 Pytorch-template](https://github.com/moemen95/Pytorch-Project-Template)에서 공유하는 Pytorch 코드 구조화 템플릿에다가 [Pytorchic BERT](https://github.com/dhlee347/pytorchic-bert)을 옮겨 구현해보는 것이다. [Pytorchic BERT](https://github.com/dhlee347/pytorchic-bert)는 Google의 [BERT](https://github.com/google-research/bert)의 Tensorflow code를 Pytorch로 re-implementation한 [이동현님](https://github.com/dhlee347)의 repository이다. 코드가 읽기 좋게 깔끔해서 베이스 코드로 삼게 되었다.
+Pytorch 숙련도를 올리고, 동시에 NLP 모델들을 더 자세히 공부하기 위해 작은 프로젝트를 해보려고 한다. [moemen95의 Pytorch-template](https://github.com/moemen95/Pytorch-Project-Template)에서 공유하는 Pytorch 코드 구조화 템플릿에다가 [Pytorchic BERT](https://github.com/dhlee347/pytorchic-bert)을 옮겨 구현해보는 것이다. [Pytorchic BERT](https://github.com/dhlee347/pytorchic-bert)는 Google의 [BERT](https://github.com/google-research/bert)의 Tensorflow 코드를 Pytorch로 re-implementation한 [이동현님](https://github.com/dhlee347)의 repository이다. 코드가 읽기 좋게 깔끔해서 베이스 코드로 삼게 되었다.
 
 이왕이면 `ctrl+c`, `ctrl+v`를 최소한으로 이용하면서 코드를 찬찬히 음미할 수 있도록 하려고 한다. 회사일에 치여있다보면 언제쯤 마무리될지 모르겠지만, 시작이 반이니 이렇게 블로그에 포스트 하나를 남기는걸로 만천하에 공언해버릴 속셈이다. 원래 토이 프로젝트든, 다이어트든, 할거라고 말해놓는게 첫걸음이니 말이다.
 
@@ -25,6 +25,6 @@ Template Structure는 다음과 같이 생겼다.
 
 ![](https://github.com/moemen95/Pytorch-Project-Template/raw/master/utils/assets/class_diagram.png)
 
-처음에는 [victoresque의 Pytorch Template](https://github.com/victoresque/pytorch-template)를 사용하려고 했지만 Agent를 중심으로 각 모듈들을 기능적으로 분리 구성하는 이 구조가 가장 좋을 것 같아 변경했다. 각 모듈들의 관계를 머리속에 정확히 정리하면서 진행하기 위해서는 집중력이 생명이지 싶다.
+처음에는 [victoresque의 Pytorch Template](https://github.com/victoresque/pytorch-template)를 사용하려고 했지만 [moemen95의 Pytorch-template](https://github.com/moemen95/Pytorch-Project-Template)의 구조에서 Agent를 중심으로 각 모듈들을 기능적으로 분리 구성하는 부분이 마음에 들어 변경했다. 각 모듈들의 관계를 머리속에 정확히 정리하면서 진행하기 위해서는 집중력이 생명이지 싶다.
 
 
