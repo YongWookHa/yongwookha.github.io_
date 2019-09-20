@@ -31,4 +31,8 @@ Template Structure는 다음과 같이 생겼다.
 
 현재, [codertimo님의 BERT-pytorch](https://github.com/codertimo/BERT-pytorch)와 [이동현님의 Pytorchic BERT](https://github.com/dhlee347/pytorchic-bert)를 모두 참조하여 구현중이다. 두 Repo의 가장 큰 차이는 학습에 사용하는 데이터의 형식이다. 처음에는 그냥 똑같은 코드를 옮기는 수준으로 계획한 프로젝트였지만 점차 괜히 욕심이 난다. 지금은 내 나름대로 정의한 데이터 형식을 따르게끔 Dataloader와 Agent를 조금 수정하고 있다. 많은 시간을 투자하지 못해서 생각보다 조금 길어지는듯 하지만, 다음주 이내에 마무리 해보려 한다.
 
-Github에서 Private Repository로 구현중이지만, 완성하면 Open으로 전환하는 것도 고려해봐야겠다.
+## +09.20
+
+여기 포스트에서 BERT 코드 재구현을 선언(?)한지도 꽤 시간이 많이 흘렀다. 사실 8월 중순쯤 마무리되었던 프로젝트였는데, 이번에 private에서 public으로 전환하면서 한번 더 업데이트 한다. 이동현님의 Pytorchic BERT 구조에 codertimo님이 사용하신 input dataset format을 이용하도록 재구성했다. Copy & Paste를 거의 쓰지 않고 수작업으로 복사하는 것이 아무래도 비효율적인 것 같고 큰 효과가 없을 것만 같았지만, 결과적으로 코드를 더 자세히 읽어보고 구조와 원리를 자세히 파악하는데 도움이 되었던 것 같다. 이 프로젝트가 끝나고 나서부터는 OCR과 관련한 딥러닝 프로젝트를 바쁘게 진행하고 있다. 이건 개인적인 프로젝트가 아니라서 섣불리 포스팅하기 힘들지만, 추후에 협의가 되면 꼭 포스팅해보고 싶다. 거의 한달의 기간동안 짬이 날 때마다 진행했던 BERT-on-Pytorch-Template은 아래 Repository에서 확인할 수 있다.
+
+[https://github.com/YongWookHa/BERT-on-Pytorch-Template](https://github.com/YongWookHa/BERT-on-Pytorch-Template)
