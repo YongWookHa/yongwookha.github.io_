@@ -2,7 +2,7 @@
 layout: post
 title: Github Pages로 블로그를 옮기다.
 subtitle: (feat. Beautiful-jekyll)
-tags: [Diary, github, github-pages, jekyll, blog]
+tags: [GITHUB, JEKYLL, BLOG]
 image: /img/avatar-icon.png
 
 ---

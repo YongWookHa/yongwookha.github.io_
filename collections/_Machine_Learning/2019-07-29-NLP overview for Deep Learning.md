@@ -2,7 +2,7 @@
 layout: post
 title: Deep Learning을 위한 NLP 개요 정리.
 subtitle: Image Processing과 비교
-tags: [Machine_Learning, NLP]
+tags: [MACHINE_LEARNING, NLP]
 image: /img/NLP-image.jpg
 comments: true
 ---

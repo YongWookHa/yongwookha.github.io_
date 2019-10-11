@@ -2,7 +2,7 @@
 layout: post
 title: IT 회사의 개발 환경
 subtitle : 신입사원 적응기
-tags: [Diary, Develop, IT]
+tags: [LIFE, DEVELOP, IT]
 comments: true
 ---
 

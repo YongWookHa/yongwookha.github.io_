@@ -2,7 +2,7 @@
 layout: post
 title: jekyll에서 tag link 관리하기
 subtitle: (collection으로 category 관리하는 경우)
-tags: [ETC, jekyll, tag, collection, category]
+tags: [JEKYLL]
 comments: true
 ---
 

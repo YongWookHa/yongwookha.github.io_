@@ -2,7 +2,7 @@
 layout: post
 title: Java Mybatis로 DB다루기
 subtitle: + DB 기본개념
-tags: [ETC, JAVA, DB, MYBATIS]
+tags: [JAVA, DB, MYBATIS]
 image: /img/mybatis.jpg
 comments: true
 ---
