@@ -3,18 +3,19 @@ layout: post
 title: Interview Question & Answer
 subtitle: 출근 루틴, 하루 3문제
 tags: [MACHINE_LEARNING, IT, DEVELOP]
-image: /img/PyTorch-logo.jpg
+image: https://assets.rappler.com/C39701B689414EE2858D1ED6A10DF1A0/img/D067EDAB25364E8CA6AFBB7537387778/1-job-interview-tips-impress-20150308.jpg
 comments: true
 ---
 
-# IT Interview Question & Answer
-
-Made by [Seongyun Byeon](https://github.com/zzsza)
-Edited by [YongWook Ha](https://github.com/YongWookHa)
+항상 양질의 글을 읽을 수 있어 즐겨찾는 [zzsza(변성윤)](https://github.com/zzsza)님의 블로그에서 [Datascience-Interview-Questions](https://zzsza.github.io/data/2018/02/17/datascience-interivew-questions/) 포스트를 발견했습니다. 공유되어 있는 양질의 문제들을 보며 출근 루틴으로 2~3문제씩 답안을 만들어야겠다는 생각이 들었습니다. 원문에는 다양한 도메인에 대한 질문들이 있는데 그 중, 관심을 가지고 있는 몇 가지 주제에 대해서 공부하고 나름대로 답안을 작성하여 기록하고자 합니다.
 
 ## Intro
 
-항상 대단하다고 생각하며 즐겨찾는 zzsza(변성윤)님의 블로그에서 [Datascience-Interview-Questions](https://github.com/zzsza/Datascience-Interview-Questions) 게시물을 뒤늦게 발견했다. 공유되어 있는 양질의 문제들을 보며 출근 루틴으로 2~3문제씩 답안을 만들어야겠다는 생각이 들었다. 원문에는 다양한 도메인에 대한 질문들이 있는데 이 중, 관심을 가지고 있는 몇 가지 주제에 대해서 공부하고 나름대로 답안을 작성하여 기록하고자 한다.
+Question by [Seongyun Byeon](https://github.com/zzsza)  
+Answer by [YongWook Ha](https://github.com/YongWookHa)
+
+답안은 `펼치기/접기` 형식으로 문제 아래 작성하고 있습니다. 각 문제의 컨텐츠를 매일 꾸준히 공부하고 답안을 채워나갈 예정이라 컨텐츠 완성까지는 꽤 시간이 소요될 것 같습니다.   
+답안에 오류가 있거나 부족한 점이 발견된다면, 댓글 남겨주시기 바랍니다.
 
 ## Contents
 
@@ -316,3 +317,5 @@ Edited by [YongWook Ha](https://github.com/YongWookHa)
 - 고객사들은 기존 추천서비스에 대한 의문이 있습니다. 주로 매출이 실제 오르는가 하는 것인데, 이를 검증하기 위한 방법에는 어떤 것이 있을까요? 위 관점에서 우리 서비스의 성능을 고객에게 명확하게 인지시키기 위한 방법을 생각해봅시다.
 
 ##### [목차로 이동](#contents)
+
+--- 
