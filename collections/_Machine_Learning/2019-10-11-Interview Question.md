@@ -9,6 +9,8 @@ comments: true
 
 항상 양질의 글을 읽을 수 있어 즐겨찾는 [zzsza(변성윤)](https://github.com/zzsza)님의 블로그에서 [Datascience-Interview-Questions](https://zzsza.github.io/data/2018/02/17/datascience-interivew-questions/) 포스트를 발견했습니다. 공유되어 있는 양질의 문제들을 보며 출근 루틴으로 2~3문제씩 답안을 만들어야겠다는 생각이 들었습니다. 원문에는 다양한 도메인에 대한 질문들이 있는데 그 중, 관심을 가지고 있는 몇 가지 주제에 대해서 공부하고 나름대로 답안을 작성하여 기록하고자 합니다.
 
+_항상 좋은 글로 영감을 주시는 변성윤님 감사합니다._
+
 ## Intro
 
 Question by [Seongyun Byeon](https://github.com/zzsza)  
@@ -123,17 +125,38 @@ Answer by [YongWook Ha](https://github.com/YongWookHa)
   > 차원의 저주는 한 샘플을 특정짓기 위해 많은 정보(다양한 차원의)를 수집할수록 오히려 학습이 어려워짐을 말한다.
 
   </details>
-- dimension reduction기법으로 보통 어떤 것들이 있나요?
+- Dimension reduction기법으로 보통 어떤 것들이 있나요?
   <details markdown="1">
   <summary>[답안]</summary>
 
-  > PCA  
-  > NMF  
-  > LDA  
+  > ### 기본 방법 : Projection, Manifold 
+  > - Projection  
+  >   일반적으로, 고차원 데이터의 어떤 특성은 큰 변화가 없고, 어떤 특성은 다른 특성과 연관하여 크게 변하곤 한다. 이를 '데이터가 고차원 공간에서 저차원 subspace(부분 공간)에 위치한다' 라고 하는데, 이것은 고차원 데이터의 특성 중, 일부로 해당 데이터를 표현할 수 있음을 의미한다. 이때, 고차원 데이터를 저차원 subspace로 투영하여 차원을 줄인다.
+  > - Manifold  
+  >   데이터가 국소적으로는 유클리드 공간에 있으나, 대역적으로는 다른 위상을 가지는 경우 manifold 공간에 있다고 할 수 있다. 고차원 데이터가 실제로는 저차원 manifold에 있다고 가정하고 학습을 진행하여 문제 난이도를 낮출 수 있으나 항상 성공적이지 않기에 가정 전에 데이터를 살펴보는 주의가 필요하다.
+  > _[참조: https://excelsior-cjh.tistory.com/167](https://excelsior-cjh.tistory.com/167)_
+  > ### 심화 방법: PCA, NMF, LDA  
 
   </details>
 - PCA는 차원 축소 기법이면서, 데이터 압축 기법이기도 하고, 노이즈 제거기법이기도 합니다. 왜 그런지 설명해주실 수 있나요?
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > PCA는 분산이 최대가 되도록 하는 축을 찾고, 그 축과 직교하면서 분산이 최대가 되도록 하는 축을 이어 찾아나가는 방식으로 데이터를 간단히 표현합니다. 이 과정에서 차원이 축소되며, 투영 변환을 반대로 수행하면 데이터의 복원이 가능하고, PCA로 찾은 축들 중, 분산이 적은 축들을 제거함으로서 노이즈를 줄일 수 있습니다.
+
+  </details>
 - LSA, LDA, SVD 등의 약자들이 어떤 뜻이고 서로 어떤 관계를 가지는지 설명할 수 있나요?
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > LSA(Latent Semantic Analysis, 잠재의미분석) : SVD를 이용하여 차원을 축소  
+  > LDA(Latent Dirichlet Allocation, 잠재디리클레할당) : 토픽별 단어분포와 문서별 토픽 분포를 학습하여 topic modeling 하는 방법  
+  > SVD(Singular Value Decomposition) : 특이값 분해  
+  >
+  > 세 방법 모두 고차원 데이터에서 중요도가 높은 부분을 분석하고 이것을 이용하여 문제를 해결한다.  
+  > _[참조: https://ratsgo.github.io/from%20frequency%20to%20semantics/2017/04/06/pcasvdlsa/](https://ratsgo.github.io/from%20frequency%20to%20semantics/2017/04/06/pcasvdlsa/)_
+
+  </details>
 - Markov Chain을 고등학생에게 설명하려면 어떤 방식이 제일 좋을까요?
 - 텍스트 더미에서 주제를 추출해야 합니다. 어떤 방식으로 접근해 나가시겠나요?
 - SVM은 왜 반대로 차원을 확장시키는 방식으로 동작할까요? 거기서 어떤 장점이 발생했나요?
