@@ -150,15 +150,29 @@ Answer by [YongWook Ha](https://github.com/YongWookHa)
   <summary>[답안]</summary>
 
   > LSA(Latent Semantic Analysis, 잠재의미분석) : SVD를 이용하여 차원을 축소  
-  > LDA(Latent Dirichlet Allocation, 잠재디리클레할당) : 토픽별 단어분포와 문서별 토픽 분포를 학습하여 topic modeling 하는 방법  
+  > LDA(Latent Dirichlet Allocation, 잠재디리클레할당) : 주제별 단어분포와 문서별 주제 분포를 학습하여 Topic Modeling 하는 방법  
   > SVD(Singular Value Decomposition) : 특이값 분해  
   >
-  > 세 방법 모두 고차원 데이터에서 중요도가 높은 부분을 분석하고 이것을 이용하여 문제를 해결한다.  
-  > _[참조: https://ratsgo.github.io/from%20frequency%20to%20semantics/2017/04/06/pcasvdlsa/](https://ratsgo.github.io/from%20frequency%20to%20semantics/2017/04/06/pcasvdlsa/)_
+  > LSA와 SVD를 이용하여 데이터를 분해하고, 함축된 의미(Latent Semantic)를 추출하여 이를 통해 데이터를 압축하거나 차원을 축소한다. 특징 출현 횟수를 사용하는 LDA의 구조에 확률 모델을 도입하여 특징 출현 확률 기반으로 설계된 pLSA(Probabilistic Latent Semantic Analysis)는 SVD대신 NMF를 이용하였다. 이후, LDA는 주제별 단어분포와 문서별 주제분포 모두 고려하되, 디리클레 분포를 따르도록 설계하여 주제를 뽑아낸다.  
+  >
+  > _[참조: https://bab2min.tistory.com/585](https://bab2min.tistory.com/585)_
 
   </details>
 - Markov Chain을 고등학생에게 설명하려면 어떤 방식이 제일 좋을까요?
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > Markov Chain에서 가장 중요한 개념은 n회의 상태가 n-1회의 상태에만 영향을 받는다는 가정이다.  
+  > 따라서 독립 시행으로 일어나는 정사면체 주사위, 정육면체 주사위, 동전 던지기 게임을 상태(state)로, 해당 게임의 결과에 따라 다른 게임으로 종목을 바꾸는 것을 전이(transition) 생각할 수 있다. 전이 조건을 정하고, 특정한 순서대로 게임을 하게 될 확률을 계산해보는 것으로 설명할 수 있을 것이다.
+
+  </details>
 - 텍스트 더미에서 주제를 추출해야 합니다. 어떤 방식으로 접근해 나가시겠나요?
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > 간단히 unigram, bigram, TF-IDF로 키워드를 추출하거나 LDA를 이용해 Topic Modeling
+
+  </details>
 - SVM은 왜 반대로 차원을 확장시키는 방식으로 동작할까요? 거기서 어떤 장점이 발생했나요?
 - 다른 좋은 머신 러닝 대비, 오래된 기법인 나이브 베이즈(naive bayes)의 장점을 옹호해보세요.
 - Association Rule의 Support, Confidence, Lift에 대해 설명해주세요.
