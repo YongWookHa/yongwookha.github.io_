@@ -170,11 +170,27 @@ Answer by [YongWook Ha](https://github.com/YongWookHa)
   <details markdown="1">
   <summary>[답안]</summary>
 
-  > 간단히 unigram, bigram, TF-IDF로 키워드를 추출하거나 LDA를 이용해 Topic Modeling
+  > 간단히 unigram, bigram, TF-IDF로 키워드를 추출하거나 LDA를 이용한다.
 
   </details>
 - SVM은 왜 반대로 차원을 확장시키는 방식으로 동작할까요? 거기서 어떤 장점이 발생했나요?
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > SVM을 비선형 분류 모델로 사용하기 위해 저차원 공간의 데이터를 고차원 공간으로 매핑하여 선형 분리가 가능한 데이터로 변환하여 처리한다.  
+  >
+  > _[참조: https://ratsgo.github.io/machine%20learning/2017/05/30/SVM3/](https://ratsgo.github.io/machine%20learning/2017/05/30/SVM3/)
+
+  </details>
 - 다른 좋은 머신 러닝 대비, 오래된 기법인 나이브 베이즈(naive bayes)의 장점을 옹호해보세요.
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > 1. 결과 도출을 위해 조건부 확률만 계산하면 되므로 매우 빠르고, 메모리를 많이 차지하지 않는다.  
+  > 2. 데이터가의 특징들이 서로 독립되어 있을 때 좋은 결과를 얻을 수 있다.
+  > 3. 데이터의 양이 적더라도 학습이 용이하다.  
+  
+  </details>
 - Association Rule의 Support, Confidence, Lift에 대해 설명해주세요.
 - 최적화 기법중 Newton’s Method와 Gradient Descent 방법에 대해 알고 있나요?
 - 머신러닝(machine)적 접근방법과 통계(statistics)적 접근방법의 둘간에 차이에 대한 견해가 있나요?
