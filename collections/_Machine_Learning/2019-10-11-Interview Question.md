@@ -192,7 +192,24 @@ Answer by [YongWook Ha](https://github.com/YongWookHa)
   
   </details>
 - Association Rule의 Support, Confidence, Lift에 대해 설명해주세요.
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > ![](https://www.dropbox.com/s/utsfodbxj9uihv5/%ED%8C%8C%EC%9D%BC%202019.%2010.%2021.%20%EC%98%A4%EC%A0%84%2010%2054%2032.jpeg?raw=1)
+  >  
+  > * Support : X와 Y 두 item이 얼마나 자주 발생하는지를 의미  
+  > * Confidence : X가 발생했을 떄, Y도 포함되어 있는 비율  
+  > * Lift : X가 발생하지 않았을 때의 Y 발생 비율과 X가 발생했을 때 Y 발생 비율의 대비. 숫자가 1보다 크거나 작은 정도에 따라 연관성을 파악할 수 있다.  
+  >  
+  > _[참조 : https://rfriend.tistory.com/191](https://rfriend.tistory.com/191)  
+
+  </details>
 - 최적화 기법중 Newton’s Method와 Gradient Descent 방법에 대해 알고 있나요?
+  <summary>[답안]</summary>
+
+  > Newton's Method는 연속적이고 미분 가능한 함수에 대해 무작위 값을 대입해서 결과값의 변화 추이를 통해 원하는 해를 근사하는 방법이다. Gradient Descent 방법은 함수의 극대, 극소를 찾는 방법이며, 마찬가지로 지점에서의 미분값에 따라 대입할 값을 갱신하므로 그 근본적인 방법은 동일하다.
+
+  </details>
 - 머신러닝(machine)적 접근방법과 통계(statistics)적 접근방법의 둘간에 차이에 대한 견해가 있나요?
 - 인공신경망(deep learning이전의 전통적인)이 가지는 일반적인 문제점은 무엇일까요?
 - 지금 나오고 있는 deep learning 계열의 혁신의 근간은 무엇이라고 생각하시나요?
