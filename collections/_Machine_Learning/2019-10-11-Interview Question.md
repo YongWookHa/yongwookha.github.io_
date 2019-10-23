@@ -222,12 +222,33 @@ Answer by [YongWook Ha](https://github.com/YongWookHa)
   <details markdown="1">
   <summary>[답안]</summary>
 
-  Parameter updating 전략과 각종 Normalization의 미비로 인해 step에 따른 Gradient의 움직임을 효과적으로 제어하기 힘들었기 때문에 모델이 깊게 설계할 수 없었다. 따라서 문제의 복잡도가 증가하는 경우, 인공신경망을 적용하여 해결하기 힘들었다.
+  > Parameter updating 전략과 각종 Normalization의 미비로 인해 step에 따른 Gradient의 움직임을 효과적으로 제어하기 힘들었기 때문에 모델이 깊게 설계할 수 없었다. 따라서 머신러닝을 사용해야하는 문제는 주로 비선형성이 큰 경우가 많았기 때문에, 얕은 구조의 인공신경망 모델로는 성공적인 대응을 할 수 없는 문제가 있었다.  
 
   </details>
 - 지금 나오고 있는 deep learning 계열의 혁신의 근간은 무엇이라고 생각하시나요?
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > [주관적 견해] 여러 Gradient Descent Optimizer들과 Normalization 기법들이 등장하고, GPU를 통한 부동소수점 연산의 효율화로 인해 Matrix 연산이 빨라지면서 사실상 중단되었던 인공신경망 분야가 한걸음 더 전진한 것이라고 생각한다.  
+
+  </details>
 - ROC 커브에 대해 설명해주실 수 있으신가요?
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > ROC 커브는 FPR(False Positive Rate)와 TPR(True Positive rate)을 각각 x축과 y축으로 놓은 그래프이다. FPR은 GT(Grount Truth)가 거짓인 케이스에 대해 참이라고 잘못 예측한 비율이며, TPR은 GT가 참인 케이스에 대해 참이라고 잘 예측한 비율이다. 따라서 전자는 작을수록 성능이 좋고, 후자는 클수록 성능이 좋다.  
+  > 두 Parameter에 대해 성능이 좋을수록 그래프 좌상단의 꼭짓점으로 다가가게 되며, 그래프 하단의 면적이 넓어지는 형태를 가지고 있다. 
+  >  
+  > ![](https://www.dropbox.com/s/9izjybk7aawtof0/ROC%20curve.png?raw=1)
+
+  </details>
 - 여러분이 서버를 100대 가지고 있습니다. 이때 인공신경망보다 Random Forest를 써야하는 이유는 뭘까요?
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > 일반적으로 각 단계별로 의존적인 end-to-end 인공신경망과 달리 Random Forest는 여러개의 독립적인 decision tree를 이용하여 결과를 투표하는 형식이므로 다수의 서버에서 병렬적인 처리가 용이하다.
+
+  </details>
 - K-means의 대표적 의미론적 단점은 무엇인가요? (계산량 많다는것 말고)
 - L1, L2 정규화에 대해 설명해주세요
 - XGBoost을 아시나요? 왜 이 모델이 캐글에서 유명할까요?
