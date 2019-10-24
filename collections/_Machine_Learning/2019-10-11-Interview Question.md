@@ -201,7 +201,7 @@ Answer by [YongWook Ha](https://github.com/YongWookHa)
   > * Confidence : X가 발생했을 떄, Y도 포함되어 있는 비율  
   > * Lift : X가 발생하지 않았을 때의 Y 발생 비율과 X가 발생했을 때 Y 발생 비율의 대비. 숫자가 1보다 크거나 작은 정도에 따라 연관성을 파악할 수 있다.  
   >  
-  > _[참조 : https://rfriend.tistory.com/191](https://rfriend.tistory.com/191)  
+  > _[참조 : https://rfriend.tistory.com/191](https://rfriend.tistory.com/191)_
 
   </details>
 - 최적화 기법중 Newton’s Method와 Gradient Descent 방법에 대해 알고 있나요?
@@ -250,8 +250,36 @@ Answer by [YongWook Ha](https://github.com/YongWookHa)
 
   </details>
 - K-means의 대표적 의미론적 단점은 무엇인가요? (계산량 많다는것 말고)
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > K-means 알고리즘은 K개의 Cluster를 미리 입력받아 Expectation과 Maximization 단계를 거듭하여 군집화를 수행한다. 단점들은 다음과 같다.  
+  > 1. 초기에 사용자가 해당 데이터에 몇개의 Cluster가 있는지 알고 있어야 한다.  
+  > 2. K개의 Cluster를 초기화하는 방법에 따라 결과에 큰 차이가 있다.  
+  > 3. 클러스터의 모양이 구형이 아닌 경우, 적용이 힘들다.
+  > 4. Maximization단계에서 각 데이터들과의 거리를 기준으로 Cluster 중심점의 위치를 업데이트하므로 데이터의 노이즈에 민감하게 반응한다.  
+
+  </details>
 - L1, L2 정규화에 대해 설명해주세요
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > L1, L2 정규화는 모델 학습시에 값이 너무 큰 파라메터의 영향력을 줄이는 전략이다. L1 정규화는 Cost Function에 가중치의 크기(절대값)를 더해주고, L2 정규화는 가중치 크기의 제곱을 더해줌으로써 가중치가 너무 크지 않은 방향으로 학습을 유도한다. 이것은 학습된 모델의 범용성을 높이는 효과를 준다.
+  >  
+  > _[참조 : https://light-tree.tistory.com/125](https://light-tree.tistory.com/125)_  
+
+  </details>
+  
 - XGBoost을 아시나요? 왜 이 모델이 캐글에서 유명할까요?
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > XGBoost는 머신러닝에서 각 Feature의 중요도를 계산할 수 있는 툴이다. 학습과 분류가 빠르고 캐글의 머신러닝 경연 우승자 중, 다수가 이 툴을 사용하여 주목받았다. 
+  >  
+  > _[참조 : https://brunch.co.kr/@snobberys/137](https://brunch.co.kr/@snobberys/137)_  
+
+  </details>
+
 - 앙상블 방법엔 어떤 것들이 있나요?
 - SVM은 왜 좋을까요?
 - feature vector란 무엇일까요?
