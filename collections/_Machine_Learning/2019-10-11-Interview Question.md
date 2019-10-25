@@ -274,14 +274,32 @@ Answer by [YongWook Ha](https://github.com/YongWookHa)
   <details markdown="1">
   <summary>[답안]</summary>
 
-  > XGBoost는 머신러닝에서 각 Feature의 중요도를 계산할 수 있는 툴이다. 학습과 분류가 빠르고 캐글의 머신러닝 경연 우승자 중, 다수가 이 툴을 사용하여 주목받았다. 
+  > XGBoost는 머신러닝에서 각 Feature의 중요도를 계산할 수 있는 툴이다. 문제를 세부 단위로 쪼개어 정확도를 예측하는 부스팅 기법과 모든 리프들이 최종 결과 스코어를 내는 CART(Classification And Regression Tree) 기법을 앙상블하여 사용한다. 학습과 분류가 빠르고 캐글의 머신러닝 경연 우승자 중, 다수가 이 툴을 사용하여 주목받았다. 
   >  
   > _[참조 : https://brunch.co.kr/@snobberys/137](https://brunch.co.kr/@snobberys/137)_  
 
   </details>
 
 - 앙상블 방법엔 어떤 것들이 있나요?
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > 앙상블은 머신러닝에서 여러 모델들을 학습시켜 각 모델의 결과를 합쳐서 더 나은 결과를 내는 방법을 말한다. 
+  > 앙상블 방법에는 서로 다른 모델들을 학습시켜 결과를 투표하는 Voting, 같은 모델을 다른 Train data로 학습시키는 Bagging(**B**ootstrap **agg**regat**ing**)과 Pasting, 여러개의 약한 분류기를 결합하여 높은 성능의 모델을 도출하는 Boosting 등이 있다.
+  >  
+  > _[참조 : https://excelsior-cjh.tistory.com/166](https://excelsior-cjh.tistory.com/166)_
+
+  </details>
+
 - SVM은 왜 좋을까요?
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > SVM은 데이터들을 선형 분리하며 최대 마진의 초평면을 찾는 크게 복잡하지 않은 구조이며, 커널 트릭을 이용해 차원을 늘리면서 비선형 데이터들에도 좋은 결과를 얻을 수 있다. 또한 이진 분류 뿐만 아니라 수치 예측에도 사용될 수 있다. Overfitting 경향이 낮으며 노이즈 데이터에도 크게 영향을 받지 않는다.
+  >  
+  > _[참조 : https://excelsior-cjh.tistory.com/166](https://excelsior-cjh.tistory.com/166)_
+
+  </details>
 - feature vector란 무엇일까요?
 - 좋은 모델의 정의는 무엇일까요?
 - 50개의 작은 의사결정 나무는 큰 의사결정 나무보다 괜찮을까요? 왜 그렇게 생각하나요?
