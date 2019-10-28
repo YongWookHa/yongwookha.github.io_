@@ -301,8 +301,27 @@ Answer by [YongWook Ha](https://github.com/YongWookHa)
 
   </details>
 - feature vector란 무엇일까요?
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > feature는 data를 구성하는 개별 example를 나타내는 '측정가능한 요소'를 나타낸다. feature vector는 한 example이 가지고 있는 feature들로 만든 vector를 의미한다.
+
+  </details>
 - 좋은 모델의 정의는 무엇일까요?
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > 좋은 모델은 여러가지 의미가 있을 수 있다고 생각한다. 상황에 따라 최고의 성능을 내는 모델이 좋은 모델일 수도 있고, 가장 적은 리소스로 적절한 성능을 내는 모델이 좋은 모델일 수도 있다. 일반적으로는 필요한 리소스만으로 좋은 성능을 내는, 최적화가 잘된 모델이 좋은 모델이라 볼 수 있을 것 같다.
+
+  </details>
 - 50개의 작은 의사결정 나무는 큰 의사결정 나무보다 괜찮을까요? 왜 그렇게 생각하나요?
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > 큰 의사결정나무 하나를 쓰는 것보다 50개의 작은 의사결정나무를 사용하여, 그들의 결과를 취합하는 것이 경우에 따라 더 좋은 성능을 발휘할 수 있을 것이다.  
+  > 비선형성이 강한 문제를 해결하는데 있어, 모든 feature를 사용하여 학습한 하나의 큰 의사결정나무보다 feature 일부를 이용하여 학습된 작은 의사결정나무들이 과적합의 정도가 덜할 것이며, 데이터 노이즈에도 강할 것이기 때문이다.  
+
+  </details>
 - 스팸 필터에 로지스틱 리그레션을 많이 사용하는 이유는 무엇일까요?
 - OLS(ordinary least squre) regression의 공식은 무엇인가요?
 
