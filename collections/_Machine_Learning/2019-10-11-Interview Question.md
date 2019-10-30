@@ -323,7 +323,19 @@ Answer by [YongWook Ha](https://github.com/YongWookHa)
 
   </details>
 - 스팸 필터에 로지스틱 리그레션을 많이 사용하는 이유는 무엇일까요?
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > 스팸 필터링 분야에서 좋은 성능을 보이는데다가 해석이 용이하며, 계산 비용도 매우 저렴하기 때문이다.
+
+  </details>
 - OLS(ordinary least squre) regression의 공식은 무엇인가요?
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > ![](https://www.dropbox.com/s/t906c7zv8asj406/OLS-regression.jpeg?raw=1)
+
+  </details
 
 
 ##### [목차로 이동](#contents)
