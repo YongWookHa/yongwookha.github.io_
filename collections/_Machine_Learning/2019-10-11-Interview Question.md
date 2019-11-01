@@ -335,7 +335,7 @@ Answer by [YongWook Ha](https://github.com/YongWookHa)
 
   > ![](https://www.dropbox.com/s/t906c7zv8asj406/OLS-regression.jpeg?raw=1)
 
-  </details
+  </details>
 
 
 ##### [목차로 이동](#contents)
@@ -343,8 +343,25 @@ Answer by [YongWook Ha](https://github.com/YongWookHa)
 ## 딥러닝
 ## 딥러닝 일반
 - 딥러닝은 무엇인가요? 딥러닝과 머신러닝의 차이는?
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > 딥러닝은 인공신경망을 깊은 구조로 설계하여 비선형성이 높은 문제들을 해결하는 방법을 통칭한다.  
+  > 딥러닝은 머신러닝의 일종이며 모델 내부의 결정 과정을 해석하기 불가능한 '블랙 박스'구조로 되어있다.
+  > 보통, 딥러닝이 일반적인 머신러닝 기법보다 더 많은 데이터를 필요로 하며, 계산량이 압도적으로 많다.
+
+  </details>
 - 왜 갑자기 딥러닝이 부흥했을까요?
-- 마지막으로 읽은 논문은 무엇인가요? 설명해주세요
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > [주관적 견해] 딥러닝의 기반 구조인 인공신경망은 1950년대부터 이미 있었던 개념이다.  
+  > 그 당시에도 문제의 비선형도가 높아지면 인공신경망의 층을 충분히 깊게 설계해야하고, 모델 학습을 안정적으로 수행해야함을 알고 있었다. 하지만 과거에는 이를 실험적으로 뒷받침할 수 있는 하드웨어적 성능이 충분치 못했고 이에 따라 학습 전략 수립에도 차질이 있었다.  
+  > 이후, GPU를 통한 부동소수점 연산의 효율화와 함께 하드웨어 문제가 완화되어, 깊은 층을 효과적으로 학습할 수 있는 방안들(Batch normalization, Optimizing Strategy 등)에 대한 연구가 활발히 이뤄질 수 있었다. 따라서 기술적 완성도가 높아졌고, 시기적으로도 Big Data 시대를 맞이하며 학습에 필요한 데이터 공급이 이전보다 수월해진 것도 결정적인 영향을 끼쳤다. 하드웨어 성능, 소프트웨어적 전략, 데이터 공급의 3가지 문제가 절묘하게 해결된 것이 딥러닝 부흥의 이유라고 생각한다.
+
+  </details>
+- 마지막으로 읽은 논문은 무엇인가요? 설명해주세요.
+  * (현재 기준으로는 CRAFT) - 답안 PASS
 - Cost Function과 Activation Function은 무엇인가요?
 - Tensorflow, Keras, PyTorch, Caffe, Mxnet 중 선호하는 프레임워크와 그 이유는 무엇인가요?
 - Data Normalization은 무엇이고 왜 필요한가요?
