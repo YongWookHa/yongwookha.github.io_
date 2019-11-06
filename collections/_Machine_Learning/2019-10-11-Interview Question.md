@@ -153,7 +153,7 @@ Answer by [YongWook Ha](https://github.com/YongWookHa)
   > LDA(Latent Dirichlet Allocation, 잠재디리클레할당) : 주제별 단어분포와 문서별 주제 분포를 학습하여 Topic Modeling 하는 방법  
   > SVD(Singular Value Decomposition) : 특이값 분해  
   >
-  > LSA와 SVD를 이용하여 데이터를 분해하고, 함축된 의미(Latent Semantic)를 추출하여 이를 통해 데이터를 압축하거나 차원을 축소한다. 특징 출현 횟수를 사용하는 LDA의 구조에 확률 모델을 도입하여 특징 출현 확률 기반으로 설계된 pLSA(Probabilistic Latent Semantic Analysis)는 SVD대신 NMF를 이용하였다. 이후, LDA는 주제별 단어분포와 문서별 주제분포 모두 고려하되, 디리클레 분포를 따르도록 설계하여 주제를 뽑아낸다.  
+  > LSA와 SVD를 이용하여 데이터를 분해하고, 함축된 의미(Latent Semantic)를 추출하여 이를 통해 데이터를 압축하거나 차원을 축소한다. 특징 출현 횟수를 사용하는 LSA의 구조에 확률 모델을 도입하여 특징 출현 확률 기반으로 설계된 pLSA(Probabilistic Latent Semantic Analysis)는 SVD대신 NMF(Non-negative Matrix Factorization)를 이용하였다. 이후, LDA는 주제별 단어분포와 문서별 주제분포 모두 고려하되, 디리클레 분포를 따르도록 설계하여 주제를 뽑아낸다.  
   >
   > _[참조: https://bab2min.tistory.com/585](https://bab2min.tistory.com/585)_
 
@@ -360,10 +360,29 @@ Answer by [YongWook Ha](https://github.com/YongWookHa)
   > 이후, GPU를 통한 부동소수점 연산의 효율화와 함께 하드웨어 문제가 완화되어, 깊은 층을 효과적으로 학습할 수 있는 방안들(Batch normalization, Optimizing Strategy 등)에 대한 연구가 활발히 이뤄질 수 있었다. 따라서 기술적 완성도가 높아졌고, 시기적으로도 Big Data 시대를 맞이하며 학습에 필요한 데이터 공급이 이전보다 수월해진 것도 결정적인 영향을 끼쳤다. 하드웨어 성능, 소프트웨어적 전략, 데이터 공급의 3가지 문제가 절묘하게 해결된 것이 딥러닝 부흥의 이유라고 생각한다.
 
   </details>
+
 - 마지막으로 읽은 논문은 무엇인가요? 설명해주세요.
-  * (현재 기준으로는 CRAFT) - 답안 PASS
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > (현재 기준으로는 `Stabilizing the Lottery Ticket Hypothesis`) - 답안 PASS
+
+  </details>
 - Cost Function과 Activation Function은 무엇인가요?
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > Cost Function은 모델이 생산한 결과와 목표 결과를 어떻게 비교할 것인가를 의미한다. 두 결과의 차이를 의미하는 Cost는 Optimizer에 의해 Parameter가 갱신될 때, Step Size를 얼마나 크게 가져갈 것인가에 결정적 영향을 끼친다. 
+  > Activation Function은 뉴런이 유입되는 신호로부터 도출하는 값을 정제하는 역할을 한다. `Sigmoid`, `Relu`, `Hyperbolic Tangent` 등의 Activation Function를 통해, 어떤 값을 버리고, 어떤 값을 내보낼지를 결정 할 수 있다.   
+
+  </details>
 - Tensorflow, Keras, PyTorch, Caffe, Mxnet 중 선호하는 프레임워크와 그 이유는 무엇인가요?
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > PyTorch. 상속을 기반으로 한 쉬운 모델 설계 방법과 직관적인 텐서 컨트롤이 마음에 들기 때문이다.
+
+  </details>
 - Data Normalization은 무엇이고 왜 필요한가요?
 - 알고있는 Activation Function에 대해 알려주세요. (Sigmoid, ReLU, LeakyReLU, Tanh 등)
 - 오버피팅일 경우 어떻게 대처해야 할까요?
