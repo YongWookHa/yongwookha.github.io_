@@ -384,7 +384,19 @@ Answer by [YongWook Ha](https://github.com/YongWookHa)
 
   </details>
 - Data Normalization은 무엇이고 왜 필요한가요?
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > Data Normalization은 입력 데이터의 최소, 최대값을 일정 범위(0~1) 내로 조절하는 것이다. 이를 통해, 특정 입력 데이터가 결과에 대해 과도한 영향을 미칠 수 있는 지위를 획득하는 것을 방지할 수 있고, 모델의 학습을 원활하게 만든다.
+
+  </details>
 - 알고있는 Activation Function에 대해 알려주세요. (Sigmoid, ReLU, LeakyReLU, Tanh 등)
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > ![](https://www.dropbox.com/s/mkh6czvzd0vhtxt/Activation-functions.jpeg?raw=1)
+
+  </details>
 - 오버피팅일 경우 어떻게 대처해야 할까요?
 - 하이퍼 파라미터는 무엇인가요?
 - Weight Initialization 방법에 대해 말해주세요. 그리고 무엇을 많이 사용하나요?
