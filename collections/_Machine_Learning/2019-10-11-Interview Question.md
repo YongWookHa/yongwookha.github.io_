@@ -179,7 +179,7 @@ Answer by [YongWook Ha](https://github.com/YongWookHa)
 
   > SVM을 비선형 분류 모델로 사용하기 위해 저차원 공간의 데이터를 고차원 공간으로 매핑하여 선형 분리가 가능한 데이터로 변환하여 처리한다.  
   >
-  > _[참조: https://ratsgo.github.io/machine%20learning/2017/05/30/SVM3/](https://ratsgo.github.io/machine%20learning/2017/05/30/SVM3/)
+  > _[참조: https://ratsgo.github.io/machine%20learning/2017/05/30/SVM3/](https://ratsgo.github.io/machine%20learning/2017/05/30/SVM3/)_
 
   </details>
 - 다른 좋은 머신 러닝 대비, 오래된 기법인 나이브 베이즈(naive bayes)의 장점을 옹호해보세요.
@@ -398,8 +398,38 @@ Answer by [YongWook Ha](https://github.com/YongWookHa)
 
   </details>
 - 오버피팅일 경우 어떻게 대처해야 할까요?
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > 1. Training Data를 더 마련한다.  
+  > 2. k-fold cross validation을 사용한다.   
+  > 3. Regularization을 사용한다.  
+  > 4. Dropout 을 사용한다.  
+  > 5. Parameter 수를 줄인다.  
+
+  </details>
+
 - 하이퍼 파라미터는 무엇인가요?
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > 하이퍼 파라미터는 모델의 학습에 필요한 수동 설정값이다. 
+
+  </details>
 - Weight Initialization 방법에 대해 말해주세요. 그리고 무엇을 많이 사용하나요?
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > Sigmoid와 같은 S자 형태의 Activation Function을 사용할 때는, 정규 분포 모양의 Weight Initialization이 효과적이지만 일반적인 상황에서는 Xiavier, ReLu에는 He를 사용한다.  
+  >  ```python
+  > # Xiavier - Normal Distribution
+  > w = np.random.randn(n_inp, n_out) / sqrt(n_inp)
+  > # He - Normal Distribution
+  > w = np.rnadom.randn(n_inp, n_out) / sqrt(n_inp / 2)
+  >  ```
+  > _[참조: https://gomguard.tistory.com/184](https://gomguard.tistory.com/184)_
+
+  </details>
 - 볼츠만 머신은 무엇인가요?
 - 요즘 Sigmoid 보다 ReLU를 많이 쓰는데 그 이유는?
 	- Non-Linearity라는 말의 의미와 그 필요성은?
