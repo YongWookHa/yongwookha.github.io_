@@ -431,7 +431,20 @@ Answer by [YongWook Ha](https://github.com/YongWookHa)
 
   </details>
 - 볼츠만 머신은 무엇인가요?
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > 볼츠만 머신은 가시층(Visible Layer)와 은닉층(Hidden Layer), 총 두 개의 층으로 신경망을 구성하는 방법이다. 볼츠만 머신은 모든 뉴런이 연결되어 있는 완전 그래프 형태이며, _제한된_ 볼츠만 머신(RBM)에서는 같은 층의 뉴런들은 연결되어 있지 않은 모양이다. 기본적으로 단층구조이며, 확률 모델이다. 분류나 선형 회귀 분석 등에 사용될 수 있다.
+  > 특히 DBN(Deep Belief Network)에서는 RBM들을 쌓아올려, 각 볼츠만 머신을 순차적으로 학습시킨다.
+
+  </details>
 - 요즘 Sigmoid 보다 ReLU를 많이 쓰는데 그 이유는?
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > Sigmoid는 항상 1보다 작은 수를 리턴한다. 이에 의해 Gradient Vanishing 현상이 일어나, 층을 깊게 설계할 수 없기 때문이다. 또한 계산 비용 측면에서도 ReLU가 Sigmoid에 비해 훨씬 경제적이다.
+
+  </details>
 	- Non-Linearity라는 말의 의미와 그 필요성은?
 	- ReLU로 어떻게 곡선 함수를 근사하나?
 	- ReLU의 문제점은?
