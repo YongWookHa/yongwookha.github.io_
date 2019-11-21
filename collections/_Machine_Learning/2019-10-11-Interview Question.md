@@ -446,8 +446,26 @@ Answer by [YongWook Ha](https://github.com/YongWookHa)
 
   </details>
 	- Non-Linearity라는 말의 의미와 그 필요성은?
+    <details markdown="1">
+    <summary>[답안]</summary>
+
+    > 비선형성. 선형 결합으로 해 집합을 표현할 수 없는 성질을 말한다. 다시 말하면, 결과값이 입력값들의 사칙연산 조합으로 표현되지 않는 것이다. 우리가 해결하고 싶은 대부분의 실제 문제들은 비선형성을 띄고 있다. 하지만 만약 모델이 선형적인 방법론으로 학습한다면 비선형 문제를 풀 수 없을 것이다. 따라서 학습시에 비선형성을 가진 방법론을 추가함으로써 여기에 대응해야 할 필요가 있다.
+
+    </details>
 	- ReLU로 어떻게 곡선 함수를 근사하나?
+    <details markdown="1">
+    <summary>[답안]</summary>
+
+    > ReLU는 선형 부분과 비선형 부분이 결합된 모양이다. ReLU가 반복 적용되면서 선형 부분의 결합이 이루어지고, 곡선 함수를 근사할 수 있게 된다.
+
+    </details>
 	- ReLU의 문제점은?
+    <details markdown="1">
+    <summary>[답안]</summary>
+
+    > ReLU는 0이하의 입력을 모두 0으로 내보낸다. 이 과정에서 정보의 손실이 불가피하다. 이런 단점을 보완하기 위해 Leaky ReLU와 같이 0이하 값도 출력에 반영하는 활성화 함수들이 등장했다.
+
+    </details>
 	- Bias는 왜 있는걸까?
 - Gradient Descent에 대해서 쉽게 설명한다면?
 	- 왜 꼭 Gradient를 써야 할까? 그 그래프에서 가로축과 세로축 각각은 무엇인가? 실제 상황에서는 그 그래프가 어떻게 그려질까?
