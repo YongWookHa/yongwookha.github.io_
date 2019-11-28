@@ -449,7 +449,8 @@ Answer by [YongWook Ha](https://github.com/YongWookHa)
     <details markdown="1">
     <summary>[답안]</summary>
 
-    > 비선형성. 선형 결합으로 해 집합을 표현할 수 없는 성질을 말한다. 다시 말하면, 결과값이 입력값들의 사칙연산 조합으로 표현되지 않는 것이다. 우리가 해결하고 싶은 대부분의 실제 문제들은 비선형성을 띄고 있다. 하지만 만약 모델이 선형적인 방법론으로 학습한다면 비선형 문제를 풀 수 없을 것이다. 따라서 학습시에 비선형성을 가진 방법론을 추가함으로써 여기에 대응해야 할 필요가 있다.
+    > 비선형성. 선형 결합으로 해 집합을 표현할 수 없는 성질을 말한다. 다시 말하면, 결과값이 입력값들의 사칙연산 조합으로 표현되지 않는 것이다.   
+    > 우리가 해결하고 싶은 대부분의 실제 문제들은 비선형성을 띄고 있다. 하지만 만약 모델이 선형적인 방법론으로 학습한다면 비선형 문제를 풀 수 없을 것이다. 따라서 학습시에 비선형성을 가진 방법론을 추가함으로써 여기에 대응해야 할 필요가 있다.
 
     </details>
 	- ReLU로 어떻게 곡선 함수를 근사하나?
@@ -467,9 +468,36 @@ Answer by [YongWook Ha](https://github.com/YongWookHa)
 
     </details>
 	- Bias는 왜 있는걸까?
+    <details markdown="1">
+    <summary>[답안]</summary>
+
+    > Bias는 함수의 모양을 변경하지 않고 Shift해주어 정답에 근사할 수 있도록 도와준다.
+
+    </details>
 - Gradient Descent에 대해서 쉽게 설명한다면?
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > Gradient Descent는 위 아래로 구불구불한 산길을 눈을 감고 지나면서 지금 밟고 있는 땅의 경사 방향을 토대로 가장 고도가 낮은 지점을 찾아나가는 것이다.  
+
+  </details>
 	- 왜 꼭 Gradient를 써야 할까? 그 그래프에서 가로축과 세로축 각각은 무엇인가? 실제 상황에서는 그 그래프가 어떻게 그려질까?
+    <details markdown="1">
+    <summary>[답안]</summary>
+
+    > ![](https://www.dropbox.com/s/b3z3d6f9ue2vel8/Cost-Gradient.jpeg?raw=1)  
+    > Gradient가 양수이면 올라가는 방향이며 음수이면 내려가는 방향이다. 실제 상황에서는 Gradient 그래프가 0을 중심으로 진동하는 모양이 될 것이다.  
+
+    </details>
 	- GD 중에 때때로 Loss가 증가하는 이유는?
+    <details markdown="1">
+    <summary>[답안]</summary>
+
+    > ![](https://www.dropbox.com/s/vbwby7kugy9flei/Cost-Gradient2.jpeg?raw=1)  
+    > 실제로 사용되는 GD에서는 Local Optima를 피하기 위해 Momentum 등의 개념을 도입한 RMSprop, Adam 등의 Optimization 전략을 사용한다.    
+    > 각 Optimization 전략에 따라 Gradient가 양수인 방향으로도 parameter update step을 가져가는 경우가 생길 수 있으며, 이 경우에는 Loss가 일시적으로 증가할 수 있다.  
+
+    </details>
 	- 중학생이 이해할 수 있게 더 쉽게 설명 한다면?
 	- Back Propagation에 대해서 쉽게 설명 한다면?
 - Local Minima 문제에도 불구하고 딥러닝이 잘 되는 이유는?
