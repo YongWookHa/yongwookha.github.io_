@@ -478,7 +478,7 @@ Answer by [YongWook Ha](https://github.com/YongWookHa)
   <details markdown="1">
   <summary>[답안]</summary>
 
-  > Gradient Descent는 위 아래로 구불구불한 산길을 눈을 감고 지나면서 지금 밟고 있는 땅의 경사 방향을 토대로 가장 고도가 낮은 지점을 찾아나가는 것이다.  
+  > Gradient Descent는 파라미터에 대해 오차값을 미분하여 그 기울기값(Gradient)를 구하고, 경사가 하강하는 방향으로 파라미터를 업데이트 하는 방법이다.
 
   </details>
 	- 왜 꼭 Gradient를 써야 할까? 그 그래프에서 가로축과 세로축 각각은 무엇인가? 실제 상황에서는 그 그래프가 어떻게 그려질까?
@@ -499,7 +499,19 @@ Answer by [YongWook Ha](https://github.com/YongWookHa)
 
     </details>
 	- 중학생이 이해할 수 있게 더 쉽게 설명 한다면?
+    <details markdown="1">
+    <summary>[답안]</summary>
+
+    > Gradient Descent는 위 아래로 구불구불한 산길을 눈을 감고 지나면서 지금 밟고 있는 땅의 경사 방향을 토대로 가장 고도가 낮은 지점을 찾아나가는 것이다.  
+
+    </details>
 	- Back Propagation에 대해서 쉽게 설명 한다면?
+    <details markdown="1">
+    <summary>[답안]</summary>
+
+    > 신경망의 최종 단계에서 계산된 오차를 변화량을 바탕으로 이전 단계의 파라미터를 업데이트 하는 방향을 설정하는 방법이다.
+
+    </details>
 - Local Minima 문제에도 불구하고 딥러닝이 잘 되는 이유는?
 	- GD가 Local Minima 문제를 피하는 방법은?
 	- 찾은 해가 Global Minimum인지 아닌지 알 수 있는 방법은?
