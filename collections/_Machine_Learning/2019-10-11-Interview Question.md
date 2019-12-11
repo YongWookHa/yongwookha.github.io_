@@ -513,8 +513,26 @@ Answer by [YongWook Ha](https://github.com/YongWookHa)
 
     </details>
 - Local Minima 문제에도 불구하고 딥러닝이 잘 되는 이유는?
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > Optimization 전략을 통해 local Minima 문제를 어느정도 피할 수 있기 때문이다.
+
+  </details>
 	- GD가 Local Minima 문제를 피하는 방법은?
+    <details markdown="1">
+    <summary>[답안]</summary>
+
+    > Momentum 등의 개념을 도입한 RMSprop, Adam 등의 Optimization 전략을 사용한다.
+
+    </details>
 	- 찾은 해가 Global Minimum인지 아닌지 알 수 있는 방법은?
+    <details markdown="1">
+    <summary>[답안]</summary>
+
+    > Global Minima가 정확히 어디에 존재하는지는 알 수 없다. 다만, 학습에 사용하지 않은 Test Dataset에 대한 성능을 평가하는 것으로 모델이 Global Minima에 가까운지 유추할 수 있다.
+
+    </details>
 - Training 세트와 Test 세트를 분리하는 이유는?
 	- Validation 세트가 따로 있는 이유는?
 	- Test 세트가 오염되었다는 말의 뜻은?
