@@ -534,8 +534,26 @@ Answer by [YongWook Ha](https://github.com/YongWookHa)
 
     </details>
 - Training 세트와 Test 세트를 분리하는 이유는?
+    <details markdown="1">
+    <summary>[답안]</summary>
+
+    > 실제 데이터에 대한 모델의 성능을 평가하기 위해, Training data로 사용했던 데이터를 모델의 평가에 활용하지 않는다.
+
+    </details>
 	- Validation 세트가 따로 있는 이유는?
+    <details markdown="1">
+    <summary>[답안]</summary>
+
+    > 모델 학습 과정 중, Training data와 분리된 Validation data로 모델을 평가하여 그 결과를 학습에 반영하므로써 Training Data에 대한 Overfitting을 방지하는 효과가 있다.
+
+    </details>
 	- Test 세트가 오염되었다는 말의 뜻은?
+    <details markdown="1">
+    <summary>[답안]</summary>
+
+    > Test data에 Training data와 일치하거나, 매우 유사한 데이터들이 포함되어 Test data가 General한 상황에서의 성능 평가를 수행하지 못함을 말한다.
+
+    </details>
 	- Regularization이란 무엇인가?
 - Batch Normalization의 효과는?
 	- Dropout의 효과는?
