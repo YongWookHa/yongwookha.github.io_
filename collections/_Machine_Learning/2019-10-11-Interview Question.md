@@ -555,7 +555,21 @@ Answer by [YongWook Ha](https://github.com/YongWookHa)
 
     </details>
 	- Regularization이란 무엇인가?
+    <details markdown="1">
+    <summary>[답안]</summary>
+
+    > 단순히 Cost function의 값이 작아지는 방향으로 모델을 학습하면 특정 가중치가 과도하게 커지는 현상이 나타날 수 있다. Regularization의 개념은, Cost Function을 계산할 때 가중치의 절대값 만큼을 더해주는 방법으로 특정 가중치의 값이 너무 커지는 현상을 억제하는 것이다.
+
+    </details>
 - Batch Normalization의 효과는?
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > 은닉층에서의 입력값을 Normalize함으로써 입력 분포를 조정 할 수 있다. 은닉층의 입력 분포가 조정되면 학습 편의성이 개선되어 수렴 속도가 빨라지고, Local Optima를 피할 가능성이 높아진다.  
+  >  
+  >  참조 : [https://light-tree.tistory.com/132](https://light-tree.tistory.com/132) / [https://light-tree.tistory.com/139](https://light-tree.tistory.com/139)
+
+  </details>
 	- Dropout의 효과는?
 	- BN 적용해서 학습 이후 실제 사용시에 주의할 점은? 코드로는?
 	- GAN에서 Generator 쪽에도 BN을 적용해도 될까?
