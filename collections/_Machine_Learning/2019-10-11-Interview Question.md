@@ -571,8 +571,27 @@ Answer by [YongWook Ha](https://github.com/YongWookHa)
 
   </details>
 	- Dropout의 효과는?
+    <details markdown="1">
+    <summary>[답안]</summary>
+
+    > Dropout은 노드들의 연결을 무작위로 끊는 방식으로, 하나의 노드가 너무 큰 가중치를 가져 다른 노드들의 학습을 방해하는 현상을 억제한다. 이를 통해 모델의 일반화 성능을 높이고, Overfitting을 방지한다.  
+
+    </details>
 	- BN 적용해서 학습 이후 실제 사용시에 주의할 점은? 코드로는?
+    <details markdown="1">
+    <summary>[답안]</summary>
+
+    > 학습시에는 각 mini-Batch 단위의 평균과 분산을 이용해 Normalize하지만 실제 사용시에는 네트워크에 입력되는 Batch의 단위가 더 적을 수 있기 때문에 미리 학습 데이터에서 뽑아낸 평균, 분산을 이용해야한다.  
+    > code : [https://pytorch.org/docs/stable/nn.html#batchnorm1d](https://pytorch.org/docs/stable/nn.html#batchnorm1d)
+    </details>
+
 	- GAN에서 Generator 쪽에도 BN을 적용해도 될까?
+    <details markdown="1">
+    <summary>[답안]</summary>
+
+    > 일반적인 GAN에서 Generator의 Output Layer와 Discriminator의 Input Layer에는 BN을 적용하지 않는다. 그 이유는 Discriminator가 조작되지 않은 Generator의 결과물의 정확한 값으로 mean, scale을 학습하기 위함이다.
+    
+    </details>
 - SGD, RMSprop, Adam에 대해서 아는대로 설명한다면?
 	- SGD에서 Stochastic의 의미는?
 	- 미니배치를 작게 할때의 장단점은?
