@@ -35,7 +35,23 @@ Answer by [YongWook Ha](https://github.com/YongWookHa)
 
 ## 통계 및 수학
 - 고유값(eigen value)와 고유벡터(eigen vector)에 대해 설명해주세요. 그리고 왜 중요할까요?
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > 어떤 선형 변환 A에 대해, 해당 선형 변환의 결과가 원래의 상수배가 되는 0이 아닌 벡터를 고유벡터라고 하며, 이 상수 값을 고유값이라고 한다.  
+  > ![EigenValue-EigenVector](https://www.dropbox.com/s/eethy4l4b7oqfxd/EigenValue-EigenVector.jpeg?raw=1)  
+  > 고유값과 고유벡터는 정방행렬의 대각화와 밀접한 관련이 있다. 행렬을 고유벡터와 고유값으로 이루어진 행렬들로 대각화 분해하면 (eigen decomposition) 이를 이용하여 해당 행렬의 거듭제곱, 역행렬, 대각합, 행렬의 다항식 등을 매우 효율적으로 계산할 수 있기 때문에 중요하다.  
+  >
+  > 참조 : [https://darkpgmr.tistory.com/105](https://darkpgmr.tistory.com/105)
+
+  </details>
 - 샘플링(Sampling)과 리샘플링(Resampling)에 대해 설명해주세요. 리샘플링은 무슨 장점이 있을까요?
+  <details markdown="1">
+  <summary>[답안]</summary>
+
+  > 샘플링은 모집단에서 부분집합을 추출하는 행위를 말하며, 리샘플링은 부분집합으로 모집단을 추론하는 행위이다. 전체 집단에 대한 완전한 조사 없이 부분집합만으로 해당 집단에 대한 추론을 '경제적으로' 수행할 수 있다는 장점이 있다.  
+
+  </details>
 - 확률 모형과 확률 변수는 무엇일까요?
 - 누적 분포 함수와 확률 밀도 함수는 무엇일까요? 수식과 함께 표현해주세요
 - 베르누이 분포 / 이항 분포 / 카테고리 분포 / 다항 분포 / 가우시안 정규 분포 / t 분포 / 카이제곱 분포 / F 분포 / 베타 분포 / 감마 분포 / 디리클레 분포에 대해 설명해주세요. 혹시 연관된 분포가 있다면 연관 관계를 설명해주세요
@@ -200,7 +216,7 @@ Answer by [YongWook Ha](https://github.com/YongWookHa)
   > * Support : X와 Y 두 item이 얼마나 자주 발생하는지를 의미  
   > * Confidence : X가 발생했을 떄, Y도 포함되어 있는 비율  
   > * Lift : X가 발생하지 않았을 때의 Y 발생 비율과 X가 발생했을 때 Y 발생 비율의 대비. 숫자가 1보다 크거나 작은 정도에 따라 연관성을 파악할 수 있다.  
-  >  
+  > 
   > _[참조 : https://rfriend.tistory.com/191](https://rfriend.tistory.com/191)_
 
   </details>
@@ -717,4 +733,4 @@ Answer by [YongWook Ha](https://github.com/YongWookHa)
 
 ##### [목차로 이동](#contents)
 
---- 
+---
