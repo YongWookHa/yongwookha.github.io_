@@ -53,7 +53,30 @@ Answer by [YongWook Ha](https://github.com/YongWookHa)
 
   </details>
 - 확률 모형과 확률 변수는 무엇일까요?
+  <details markdown="1">
+  <summary>[답안]</summary>
+  
+  > ![](https://t1.daumcdn.net/cfile/tistory/99D24E335A223F560D)  
+  > 확률 변수는 표본(사건)의 특성을 숫자로 변환하는 단계를 의미하며, 실제 공간에서 일어나는 표본(사건)을 discrete 혹은 continuous한 숫자로 할당한다.   
+  > 확률 모형은 확률 변수를 이용하여 데이터의 분포를 수학적으로 정의하는 방법을 말하며, 확률 함수들의 조합으로 구성될 수 있다.  
+  >  
+  > _그림 출처 : https://drhongdatanote.tistory.com/49_
+
+  </details>
 - 누적 분포 함수와 확률 밀도 함수는 무엇일까요? 수식과 함께 표현해주세요
+  <details markdown="1">
+  <summary>[답안]</summary>
+  
+  > 확률 : 사건(event)이라는 표본의 집합에 대해 할당된 숫자
+  > 확률 분포 : 어떤 사건에 어느 정도의 확률이 할당되었는지를 묘사한 것
+  >  
+  > ![](https://www.dropbox.com/s/payloh7uqv3zxfp/%ED%99%95%EB%A5%A0%EB%B0%80%EB%8F%84%ED%95%A8%EC%88%98.jpeg?raw=1)
+  > 누적 분포 함수는 (−∞ )부터 특정 지점까지 확률 변수가 존재할 확률을 나타낸다.   
+  > 확률 밀도 함수는 특정 구간(\[a,b]) 내에서 확률 변수의 분포를 나타내는 함수이다.   
+  >  
+  > _출처 및 참조 : [https://datascienceschool.net/view-notebook/fa24ed1f520f4691b8bce979860ebc0a/](https://datascienceschool.net/view-notebook/fa24ed1f520f4691b8bce979860ebc0a/)_
+
+  </details>
 - 베르누이 분포 / 이항 분포 / 카테고리 분포 / 다항 분포 / 가우시안 정규 분포 / t 분포 / 카이제곱 분포 / F 분포 / 베타 분포 / 감마 분포 / 디리클레 분포에 대해 설명해주세요. 혹시 연관된 분포가 있다면 연관 관계를 설명해주세요
 - 조건부 확률은 무엇일까요?
 - 공분산과 상관계수는 무엇일까요? 수식과 함께 표현해주세요
