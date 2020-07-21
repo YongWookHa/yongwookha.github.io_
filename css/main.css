@@ -4,10 +4,11 @@ layout: null
 
 @import url("pygment_highlights.css");
 @import url("https://fonts.googleapis.com/css?family=Nanum+Myeongjo|Noto+Sans&display=swap");
+@import url("https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css");
 /* --- General --- */
 
 body {
-  font-family: 'Noto Sans', 'Nanum Myeongjo', serif;
+  font-family: 'Noto Sans', 'NanumSquareRound', serif;
   font-size: 18px;
   color: #404040;
   position: relative;
@@ -351,7 +352,7 @@ footer .theme-by {
   margin: 0 0 10px;
 }
 .post-preview .post-entry {
-  font-family: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans', 'NanumSquareRound', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .post-entry-container {
   display: inline-block;
@@ -388,7 +389,7 @@ footer .theme-by {
 /* --- Tags --- */
 
 .blog-tags {
-  font-family: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans', 'NanumSquareRound', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #999;
   font-size: 15px;
   margin-bottom: 30px;
@@ -481,7 +482,7 @@ footer .theme-by {
   font-size: 27px;
   line-height: 1.1;
   display: block;
-  font-family: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans', 'Nanum Myeongjo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
 }
