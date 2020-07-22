@@ -3,13 +3,13 @@ layout: post
 title: 이미지 전송 REST-API 서버 구축
 subtitle: feat. django-rest-framework
 tags: [DEVELOP]
-image: /img/django.png
+image: /img/django.jpg
 comments: true
 ---
 
-그동안 매일같이 바쁜 나날들을 보내오면서 꽤 많은 경험을 했다. 요즘에는 R&D에만 시간을 쏟지 않고, AI 코어와 Front Serving까지 아우를 수 있는 풀스택 AI 개발자의 포지션을 잡아보려고 이것저것 열심히 공부하고 있다. 올 상반기에 회사에서 연구, 개발했던 OCR 엔진을 웹에서 서비스하기 위해 Django 기반의 간단한 REST-API 서버를 만들었다.  
+그동안 매일같이 바쁜 나날들을 보내오면서 꽤 많은 경험을 했다. 요즘에는 연구에만 시간을 쏟지 않고, AI 코어와 Front Serving까지 아우를 수 있는 풀스택 AI 개발자의 포지션을 잡아보려고 frontend의 이것저것 열심히 공부하고 있다. 오늘은 올 상반기에 회사에서 연구, 개발했던 OCR 엔진을 웹에서 서비스하기 위해 Django 기반의 REST-API 서버를 만들면서 배운 내용을 정리해보려고 한다.  
 
-OCR 엔진은 텍스트 검출과 인식으로 구분되는 전형적인 OCR 방식으로 설계되었고, 서비스는 지정된 IP와 Port로 지급받은 API-Key와 함께 이미지를 전송하면 이를 처리하여 텍스트 결과로 보내주는 방식으로 이루어진다. 
+OCR 엔진은 텍스트 검출과 인식으로 구분되는 전형적인 OCR 방식이며, Pytorch로 구현되어 있었다. 서비스는 지정된 IP와 Port로 지급받은 API-Key와 함께 이미지를 전송하면 이를 처리하여 텍스트 결과로 보내주는 방식으로 이루어진다. Deep Learning 모델들이 대부분 python-base의 framework에서 개발되므로, 빠른 serving을 위해서는 같은 python-base의 django나 flask를 쓰는게 좋을 것 같았는데, 개발이 더 용이한 django를 이용하기로 했었다.    
 
 ## 이 포스트에서 다룰 내용  
 이 포스트에서는 Django에서 기본으로 제공하는 User 템플릿을 수정하여 각 User가 랜덤한 API-Key를 지급받도록 하고, Django-Rest-Framework 패키지를 이용하여 권한이 있는 유저가 서비스에 접근할 수 있도록 하는 Customized 코드에 대해 소개하고, 그 일부를 발췌하여 설명한다. 
