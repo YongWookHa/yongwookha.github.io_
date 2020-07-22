@@ -21,6 +21,9 @@ html form으로 웹 브라우저에서 이미지 업로드 및 API-key를 입력
 **2. 복수 이미지에 대한 결과 얻기 (자동)**  
 base64 encoded image와 API-Key를 json format으로 request하고 response 얻기  
 
+![](/img/django-rest-framework.png)
+
+
 전체 코드는 Github Repo에서 확인할 수 있다. 전체 코드를 보면서 아래 설명을 함께 참조하는 것을 추천한다.   
 Repository: [https://github.com/YongWookHa/django-rest-image-upload](https://github.com/YongWookHa/django-rest-image-upload)  
 
